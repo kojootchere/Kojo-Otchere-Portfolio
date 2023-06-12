@@ -6,7 +6,7 @@ This is a portfolio website for Kojo Otchere, a Systems Engineer with a rich exp
 
 ## Screenshot
 
-assets/images/website-screenshot.jpeg
+![Portfolio website screenshot](./assets/images/website-screenshot.jpeg)
 
 ## Link to the Deployed Application
 
