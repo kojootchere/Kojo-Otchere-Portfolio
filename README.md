@@ -6,8 +6,8 @@ This is a portfolio website for Kojo Otchere, a Systems Engineer with a rich exp
 
 ## Screenshot
 
-<!-- ![Horiseon website screenshot](./assets/images/01-html-css-git-homework-demo.jpg) -->
+assets/images/website-screenshot.jpeg
 
 ## Link to the Deployed Application
 
-Link to Deployed Application: 
+Link to Deployed Application: https://kojootchere.github.io/Kojo-Otchere-Portfolio/
