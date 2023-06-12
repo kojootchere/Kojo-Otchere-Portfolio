@@ -2,27 +2,48 @@
 <html lang="en">
 
 <head>
+    <!-- Define character set -->
     <meta charset="UTF-8">
+
+    <!-- Define viewport for responsiveness -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the website -->
     <title>Developer Portfolio</title>
+
+    <!-- Linking the CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <!-- Header section starts here -->
     <header>
-        <h1>Kojo Otchere</h1>
-        <img src="assets/images/developer_photo.png" alt="developer avatar">
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-                <li><a href="assets/images/Kojo_Otchere_Resume.pdf">Resume</a></a></li>
-            </ul>
-        </nav>
+        <!-- Website's main title -->
+        <div class="left">
+            <h1>Kojo Otchere</h1>
+        </div>
+        <!-- Developer's profile picture -->
+        <div class="center">
+            <img src="assets/images/developer_photo.png" alt="developer avatar">
+        </div>
+        <!-- Navigation menu starts here -->
+        <div class="right">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a target="_blank" href="assets/images/Kojo_Otchere_Resume.pdf">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Navigation menu ends here -->
     </header>
+    <!-- Header section ends here -->
 
+    <!-- Main content starts here -->
     <main>
+        <!-- About section starts here -->
         <section id="about">
             <h2>About Me</h2>
             <p>
@@ -45,31 +66,55 @@
                 delighted to connect.
             </p>
         </section>
+        <!-- About section ends here -->
+
+        <!-- Work section starts here -->
         <section id="work">
             <h2>My Work</h2>
+
+            <!-- Project 1 details -->
             <div class="project-1">
                 <h3>Project 1: Horiseon-AccessiRefactor</h3>
-                <a href="https://kojootchere.github.io/Horiseon-AccessiRefactor/"><img
-                        src="assets/images/01-html-css-git-homework-demo.jpeg" alt="project 1"></a>
+                <a href="https://kojootchere.github.io/Horiseon-AccessiRefactor/">
+                    <img src="assets/images/01-html-css-git-homework-demo.jpeg" alt="project 1">
+                </a>
             </div>
-            <div class="project-2">
-                <h3>Project 2: Development Portfolio</h3>
-                <a href="project2.html"><img src="assets/images/search-engine-optimization.jpg" alt="project 2"></a>
-            </div>
-            <div class="project-3">
-                <h3>Project 3: Coming Soon</h3>
-                <a href="index.html"><img src="assets/images/search-engine-optimization.jpg" alt="project 3"></a>
+
+            <div class="double-row">
+                <!-- Project 2 details -->
+                <div class="project-2">
+                    <h3>Project 2: Development Portfolio</h3>
+                    <a href="index.html">
+                        <img src="assets/images/developer_photo.png" alt="project 2">
+                    </a>
+                </div>
+
+                <!-- Project 3 details -->
+                <div class="project-3">
+                    <h3>Project 3: Coming Soon</h3>
+                    <a href="">
+                        <img src="assets/images/coming-soon.jpeg" alt="project 3">
+                    </a>
+                </div>
             </div>
         </section>
+        <!-- Work section ends here -->
+
+        <!-- Contact section starts here -->
         <section id="contact">
             <h2>Contact Me</h2>
-            <p><a href="https://github.com/kojootchere">GitHub</a></p>
-            <p><a href="https://www.linkedin.com/in/kojo-otchere-n2f5s6">LinkedIn</a></p>
+            <p><a target="_blank" href="https://github.com/kojootchere">GitHub</a></p>
+            <p><a target="_blank" href="https://www.linkedin.com/in/kojo-otchere-n2f5s6">LinkedIn</a></p>
         </section>
+        <!-- Contact section ends here -->
     </main>
+    <!-- Main content ends here -->
+
+    <!-- Footer starts here -->
     <footer>
         <p>© 2023 Kojo Otchere</p>
     </footer>
+    <!-- Footer ends here -->
 </body>
 
 </html>
